@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/profile-banner.svg" alt="Abstract software engineering and Minecraft modding banner" width="100%">
+
 # Leroy / TheonlyTazz 👋
 
 ### Fullstack Software Engineer · Minecraft Mod Developer · Open-Source Contributor
@@ -62,6 +64,8 @@ I enjoy the space where product engineering and game development meet: clean API
 useful tooling, and small quality-of-life ideas that make a surprisingly big difference.
 
 ## Find me
+
+For professional inquiries, collaboration, or project questions, reach me through [GitHub](https://github.com/TheonlyTazz).
 
 <p>
   <a href="https://github.com/TheonlyTazz">GitHub</a> ·

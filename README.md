@@ -22,6 +22,7 @@ add new ideas without losing the feel of the game.
 
 - 💼 Software engineering at [Giffits](https://www.giffits.de/)
 - 🧪 Minecraft development and open-source work with the [FTB Team](https://github.com/FTBTeam)
+- 🧠 Building [BBMCP](https://github.com/breakinblocks/BBMCP), a local-first Model Context Protocol bridge for Minecraft
 - 🌐 Building [ChildcareTracker](https://childcaretracker.com/)
 - 🛠️ Maintaining mods and tools across Java, NeoForge, KubeJS, and the web
 
@@ -43,6 +44,7 @@ I publish Minecraft projects as a [CurseForge author](https://www.curseforge.com
 
 | Project | Focus |
 | --- | --- |
+| [BBMCP](https://github.com/breakinblocks/BBMCP) | A local-first MCP bridge that exposes Minecraft state, automation, recipes, screenshots, and FTB Quests tooling to developer workflows. |
 | [BEER](https://github.com/breakinblocks/BEER) | A focused Minecraft utility mod for extended enchanting-table bookshelf detection. |
 | [Colorful Allays](https://github.com/breakinblocks/ColorfulAllays) | A small Java mod bringing more color to Allays. |
 | [Deus Ex Machina](https://github.com/breakinblocks/Deus-Ex-Machina) | Configurable progression that rewards persistence against tough mobs. |

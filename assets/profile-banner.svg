@@ -1,70 +1,92 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 450" role="img" aria-labelledby="title desc">
-  <title id="title">Software engineering and Minecraft modding banner</title>
-  <desc id="desc">A dark technical grid with geometric blocks and a violet and cyan radial systems motif.</desc>
+  <title id="title">TheonlyTazz profile banner</title>
+  <desc id="desc">A personal developer banner for Leroy, combining an LT monogram, terminal details, Minecraft-inspired blocks, and a radial systems motif.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#090d18"/>
-      <stop offset="0.6" stop-color="#101a2c"/>
-      <stop offset="1" stop-color="#182238"/>
+      <stop offset="0" stop-color="#080c16"/>
+      <stop offset="0.58" stop-color="#101a2d"/>
+      <stop offset="1" stop-color="#1a2038"/>
     </linearGradient>
-    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/>
-      <stop offset="0.55" stop-color="#2dd4bf" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.05"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="0.48" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a78bfa"/>
     </linearGradient>
-    <radialGradient id="core" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.2"/>
-      <stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.08"/>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17243a"/>
+      <stop offset="1" stop-color="#0d1527"/>
+    </linearGradient>
+    <radialGradient id="radialGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.18"/>
+      <stop offset="0.52" stop-color="#8b5cf6" stop-opacity="0.08"/>
       <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#8aa0c8" stroke-opacity="0.08"/>
+      <path d="M40 0H0V40" fill="none" stroke="#92a4c7" stroke-opacity="0.075"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
   <rect width="1600" height="450" fill="url(#background)"/>
   <rect width="1600" height="450" fill="url(#grid)"/>
-  <path d="M0 354C360 314 620 372 910 338s470-36 690-8" fill="none" stroke="url(#horizon)" stroke-width="2"/>
+  <path d="M0 367C300 337 620 385 884 351s484-43 716-8" fill="none" stroke="url(#accent)" stroke-opacity="0.3" stroke-width="2"/>
 
-  <g fill="none" stroke="#6ee7f9" stroke-opacity="0.18">
-    <path d="M0 390H1600M0 410H1600M0 430H1600"/>
-    <path d="M790 450L1030 300M970 450L1120 300M1150 450L1210 300M1330 450L1300 300"/>
+  <!-- Personal identity panel: LT + the handle used throughout the profile. -->
+  <g transform="translate(88 76)">
+    <rect width="426" height="236" rx="18" fill="url(#panel)" stroke="#60769d" stroke-opacity="0.42"/>
+    <path d="M0 18a18 18 0 0 1 18-18h390a18 18 0 0 1 18 18" fill="#f8fafc" fill-opacity="0.035"/>
+    <circle cx="26" cy="24" r="5" fill="#f97316"/>
+    <circle cx="44" cy="24" r="5" fill="#fbbf24" fill-opacity="0.8"/>
+    <circle cx="62" cy="24" r="5" fill="#2dd4bf" fill-opacity="0.8"/>
+    <text x="88" y="29" fill="#8fa3c6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.4">profile://theonlytazz</text>
+    <path d="M30 70h72v72H30z" fill="#101a2e" stroke="#f97316" stroke-opacity="0.9" stroke-width="2"/>
+    <path d="M50 92h32v28H50zM62 82v48M42 106h48" fill="none" stroke="#f97316" stroke-width="5" stroke-linecap="square"/>
+    <text x="126" y="105" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="3">THEONLYTAZZ</text>
+    <text x="128" y="132" fill="#91a4c7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" letter-spacing="2">LEROY · SOFTWARE ENGINEER</text>
+    <path d="M30 177h16l9 9 14-17 14 12 17-21" fill="none" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M122 178h112M122 196h184M122 214h92" stroke="#6e83a8" stroke-opacity="0.48" stroke-width="2" stroke-linecap="round"/>
+    <text x="30" y="215" fill="#2dd4bf" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">&gt; build useful things_</text>
   </g>
 
-  <g opacity="0.9">
-    <path d="M108 286h76v76h-76z" fill="#15263b" stroke="#2dd4bf" stroke-opacity="0.6"/>
-    <path d="M184 316h48v46h-48z" fill="#1b2941" stroke="#67e8f9" stroke-opacity="0.35"/>
-    <path d="M302 330h92v32h-92z" fill="#111f34" stroke="#8b5cf6" stroke-opacity="0.3"/>
-    <path d="M420 300h54v62h-54z" fill="#17263d" stroke="#2dd4bf" stroke-opacity="0.32"/>
+  <!-- Low-poly block silhouettes reference Minecraft without pretending to be a screenshot. -->
+  <g fill="#14253b" stroke="#2dd4bf" stroke-opacity="0.3">
+    <path d="M0 382h78v68H0zM78 350h56v100H78zM134 394h94v56h-94z"/>
+    <path d="M228 372h82v78h-82zM310 406h128v44H310zM438 386h64v64h-64z"/>
+  </g>
+  <g fill="#203452" stroke="#a78bfa" stroke-opacity="0.32">
+    <path d="M1450 372h74v78h-74zM1524 338h76v112h-76z"/>
+    <path d="M1375 408h75v42h-75z"/>
   </g>
 
-  <g transform="translate(1250 215)">
-    <circle r="204" fill="url(#core)"/>
-    <circle r="168" fill="none" stroke="#67e8f9" stroke-opacity="0.22"/>
-    <circle r="128" fill="none" stroke="#a78bfa" stroke-opacity="0.42" stroke-dasharray="7 13"/>
-    <circle r="88" fill="none" stroke="#67e8f9" stroke-opacity="0.55" stroke-width="2"/>
-    <circle r="34" fill="#162b45" stroke="#67e8f9" stroke-opacity="0.8" stroke-width="2"/>
-    <path d="M-220 0H220M0-220V220" stroke="#67e8f9" stroke-opacity="0.15"/>
-    <path d="M-145-145L145 145M145-145L-145 145" stroke="#a78bfa" stroke-opacity="0.12"/>
-    <g filter="url(#glow)" fill="#67e8f9">
-      <circle cx="0" cy="-168" r="4"/>
-      <circle cx="128" cy="0" r="4"/>
-      <circle cx="0" cy="88" r="4"/>
+  <!-- Radial systems motif: a nod to world-generation tooling and structured design. -->
+  <g transform="translate(1264 224)">
+    <circle r="210" fill="url(#radialGlow)"/>
+    <circle r="178" fill="none" stroke="#6ee7f9" stroke-opacity="0.12"/>
+    <circle r="142" fill="none" stroke="#a78bfa" stroke-opacity="0.28" stroke-width="2" stroke-dasharray="9 14"/>
+    <circle r="104" fill="none" stroke="#6ee7f9" stroke-opacity="0.48" stroke-width="2"/>
+    <circle r="52" fill="#152843" stroke="#6ee7f9" stroke-opacity="0.8" stroke-width="2"/>
+    <path d="M-210 0H210M0-210V210" stroke="#6ee7f9" stroke-opacity="0.12"/>
+    <path d="M-149-149L149 149M149-149L-149 149" stroke="#a78bfa" stroke-opacity="0.1"/>
+    <g fill="#6ee7f9" filter="url(#softGlow)">
+      <circle cx="0" cy="-142" r="4"/>
+      <circle cx="142" cy="0" r="4"/>
+      <circle cx="0" cy="104" r="4"/>
+      <circle cx="-104" cy="0" r="4"/>
     </g>
-    <g fill="#1e3552" stroke="#8b5cf6" stroke-opacity="0.7">
-      <path d="M-28-116h56v56h-56z"/>
-      <path d="M92-28h56v56h-56z"/>
-      <path d="M-148 74h56v56h-56z"/>
+    <g fill="#1d3553" stroke="#a78bfa" stroke-opacity="0.7">
+      <path d="M-28-132h56v56h-56z"/>
+      <path d="M112-28h56v56h-56z"/>
+      <path d="M-168 76h56v56h-56z"/>
+      <path d="M-28 112h56v56h-56z"/>
     </g>
   </g>
 
   <g fill="none" stroke-linecap="round">
-    <path d="M80 102h176M80 124h104" stroke="#67e8f9" stroke-opacity="0.5" stroke-width="3"/>
-    <path d="M80 164h112M80 186h160" stroke="#a78bfa" stroke-opacity="0.38" stroke-width="2"/>
-    <path d="M80 224h72" stroke="#fbbf24" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M600 100h174M600 120h96M600 140h136" stroke="#6ee7f9" stroke-opacity="0.32" stroke-width="2"/>
+    <path d="M600 188h130M600 208h206M600 228h86" stroke="#a78bfa" stroke-opacity="0.24" stroke-width="2"/>
+    <path d="M600 276h76M600 296h148" stroke="#f97316" stroke-opacity="0.38" stroke-width="2"/>
   </g>
 </svg>

@@ -11,7 +11,7 @@ add new ideas without losing the feel of the game.
 
 <p>
   <a href="https://github.com/TheonlyTazz"><img src="https://img.shields.io/badge/GitHub-TheonlyTazz-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
-  <a href="https://www.curseforge.com/members/theonlytazz/projects"><img src="https://img.shields.io/badge/CurseForge-10.8M%2B_downloads-F16436?style=for-the-badge&logo=curseforge" alt="CurseForge: 10.8M+ downloads"></a>
+  <a href="https://www.curseforge.com/members/theonlytazz/projects"><img src="https://img.shields.io/badge/CurseForge-11.1M%2B_downloads-F16436?style=for-the-badge&logo=curseforge" alt="CurseForge: 11.1M+ downloads"></a>
   <a href="https://www.giffits.de/"><img src="https://img.shields.io/badge/Giffits-Software_Engineer-0B6E99?style=for-the-badge" alt="Giffits"></a>
   <a href="https://github.com/FTBTeam"><img src="https://img.shields.io/badge/FTB_Team-Member-8B5CF6?style=for-the-badge" alt="FTB Team"></a>
 </p>
